@@ -9,15 +9,6 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
 
-        /*
-
-        *<]:-DOo
-        >:o)
-        <]:-D
-
-
-
-        */
         Pattern Noel = Pattern.compile("\\*<]:-DOo");
         Pattern Rens = Pattern.compile(">:o\\)");
         Pattern Follet = Pattern.compile("[^*]<]:-D");
